@@ -63,3 +63,7 @@ jobs:
     - name: Test application
 
       run: 'mvn test'
+
+    - name: Test application Java
+
+      run: 'SimplecrudApplicationTests.java'
